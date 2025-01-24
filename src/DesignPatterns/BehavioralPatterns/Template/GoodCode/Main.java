@@ -2,8 +2,8 @@ package DesignPatterns.BehavioralPatterns.Template.GoodCode;
 
 public class Main {
     public static void main(String[] args) {
-        JSONParser jsonParser = new JSONParser();
-        CSVParser csvParser = new CSVParser();
+        Parser jsonParser = new JSONParser();
+        Parser csvParser = new CSVParser();
         jsonParser.doParse();
         csvParser.doParse();
     }
